@@ -1,0 +1,27 @@
+{
+  "name": "sri-desktop-examples",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack --watch & electron ."
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.1",
+    "compression-webpack-plugin": "^0.2.0",
+    "css-loader": "^0.14.5",
+    "file-loader": "^0.8.4",
+    "image-webpack-loader": "^1.6.1",
+    "imagemin": "^3.2.0",
+    "lodash": "^3.9.3",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.9.10"
+  },
+  "dependencies": {
+    "bh-react-navigator": "^0.1.1",
+    "react": "^0.14.0",
+    "react-addons-perf": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-native-for-web": "^0.1.6"
+  }
+}
